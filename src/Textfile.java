@@ -32,9 +32,10 @@ public class Textfile {
 
         Scanner file_input = new Scanner(external_file);
         file_input.useDelimiter(":|\n");
-        // the argument means ":" and newline aka "\\n" act as delimiters in the file
-        // without these, spaces are the default delimiter
-        // also periods?
+        // the argument means ":" and new line aka "\n" act as delimiters in the file
+        // without these, spaces (and periods?) are the default delimiters
+        //
+        // So, in other words, I've written this to use files that separates data with colons and new lines
 
 
 
